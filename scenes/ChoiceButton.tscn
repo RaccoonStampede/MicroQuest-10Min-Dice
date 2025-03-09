@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://choice_button"]
+
+[node name="ChoiceButton" type="Button"]
+custom_minimum_size = Vector2(900, 80)
+text = "Choice"
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("res://assets/dice_roll.wav")
