@@ -1,0 +1,148 @@
+{
+  "intro": "The wind smells of yeast and despair in Socksville. A sticky note flutters to your feet: 'Help! The Jam Princess is trapped in the Dough Tower by the Bread Baron!' Armed with Dusty Lint, you, the Sock Sage, set forth.",
+  "stages": [
+    {
+      "text": "At the village gate, a Dough Golem looms, its crumbly fists raised. 'Toll or toil!' it bellows.",
+      "choices": [
+        {
+          "option": "Charm it with a lint offering",
+          "dice": "d6",
+          "stat": "charm",
+          "crit_success": "The golem weeps doughy tears and hugs you, leaving crumbs.",
+          "success_text": "It grunts happily and steps aside.",
+          "fail_text": "It eats the lint and burps in your face."
+        },
+        {
+          "option": "Outwit with a bread pun",
+          "dice": "d20",
+          "stat": "wit",
+          "crit_success": "The golem laughs so hard it crumbles, dropping a key.",
+          "success_text": "It chuckles and lets you pass.",
+          "fail_text": "It groans and sprinkles you with crumbs.",
+          "reward": "Jam Key"
+        },
+        {
+          "option": "Sneak through the shadows",
+          "dice": "d20",
+          "stat": "luck",
+          "success_text": "You slip by like a silent sock.",
+          "fail_text": "You trip, and the golem glares."
+        }
+      ]
+    },
+    {
+      "text": "Halfway up the Dough Tower’s sticky stairs, a Goose Knight honks, demanding tribute for its nest.",
+      "choices": [
+        {
+          "option": "Trade Dusty Lint",
+          "dice": "d6",
+          "stat": "charm",
+          "crit_success": "The goose bows and offers a feather crown.",
+          "success_text": "It takes the lint and gives a feather.",
+          "fail_text": "It snatches the lint and pecks your threads.",
+          "reward": "Goose Feather",
+          "penalty": "Dusty Lint"
+        },
+        {
+          "option": "Scare it with a sage glare",
+          "dice": "d20",
+          "stat": "wit",
+          "success_text": "The goose flees, dropping a feather.",
+          "fail_text": "It honks louder and steals your lint.",
+          "reward": "Goose Feather",
+          "penalty": "Dusty Lint"
+        },
+        {
+          "option": "Rush past with grit",
+          "dice": "d6",
+          "stat": "grit",
+          "success_text": "You barrel through, unscathed.",
+          "fail_text": "The goose trips you, honking triumphantly."
+        }
+      ]
+    },
+    {
+      "text": "A Jam Wraith blocks the tower’s top, its gooey arms swirling. 'None shall pass!' it wails.",
+      "choices": [
+        {
+          "option": "Reason with ancient sock wisdom",
+          "dice": "d20",
+          "stat": "wit",
+          "crit_success": "The wraith bows, offering a jam vial.",
+          "success_text": "It fades, muttering about socks.",
+          "fail_text": "It slaps you with a sticky tendril.",
+          "reward": "Jam Vial"
+        },
+        {
+          "option": "Charm with a lint dance",
+          "dice": "d20",
+          "stat": "charm",
+          "success_text": "The wraith giggles and dissipates.",
+          "fail_text": "It drenches you in jam."
+        },
+        {
+          "option": "Use Goose Feather to tickle",
+          "dice": "d6",
+          "stat": "grit",
+          "requires": "Goose Feather",
+          "success_text": "The wraith dissolves in laughter.",
+          "fail_text": "It snatches the feather and cackles."
+        }
+      ]
+    },
+    {
+      "text": "The Bread Baron stands before the Jam Princess, butter knife gleaming. 'You’re too late, sock!' he sneers.",
+      "choices": [
+        {
+          "option": "Debate his bread empire",
+          "dice": "d20",
+          "stat": "wit",
+          "crit_success": "He’s so confused he drops his knife and flees.",
+          "success_text": "He stumbles, and the Princess escapes.",
+          "fail_text": "He laughs and toasts your threads."
+        },
+        {
+          "option": "Bribe with Goose Feather",
+          "dice": "d20",
+          "stat": "charm",
+          "requires": "Goose Feather",
+          "success_text": "He dances away, leaving the Princess.",
+          "fail_text": "He keeps it and mocks you."
+        },
+        {
+          "option": "Unlock her chains with Jam Key",
+          "dice": "d6",
+          "stat": "luck",
+          "requires": "Jam Key",
+          "crit_success": "The key fits perfectly, and she knights you.",
+          "success_text": "The chains pop open, and she’s free.",
+          "fail_text": "The key jams, and the Baron attacks."
+        },
+        {
+          "option": "Charge with sock fury",
+          "dice": "d6",
+          "stat": "grit",
+          "success_text": "You knock him down, saving her.",
+          "fail_text": "He bakes you into a loaf."
+        }
+      ]
+    }
+  ],
+  "endings": [
+    {
+      "text": "The Jam Princess crowns you with a sticky scepter as Socksville cheers. You’re the hero of jams!",
+      "reward": "Jam Scepter"
+    },
+    {
+      "text": "The Princess escapes, but the Baron hires you as his crumb sage. A sticky compromise.",
+      "reward": "Bread Coin"
+    },
+    {
+      "text": "You flee as the tower collapses in doughy ruin. The Princess waves from afar, safe but distant.",
+      "reward": "Consolation Crumb"
+    },
+    {
+      "text": "The Bread Baron bakes you into a sock loaf, a tasty end to a soggy tale. Socksville mourns."
+    }
+  ]
+}
